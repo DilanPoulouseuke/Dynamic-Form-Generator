@@ -38,7 +38,7 @@ To create a production build of the application, run:
 ```
 npm run build
 ```
-This will generate optimized files in the **build/** directory.
+This will generate optimized files in the ``build/`` directory.
 
 ## **Example JSON Schemas**
 Here are examples of JSON schemas you can use to define your forms:
@@ -123,8 +123,8 @@ src/
 └── styles.css            
 
 ### **2. Adding a New Field Type**
-1. Open **DynamicForm.tsx**.
-2. Locate the **renderField** method.
+1. Open ``DynamicForm.tsx``.
+2. Locate the ``renderField`` method.
 3. Add your custom field type:
 
 ```tsx
@@ -162,5 +162,5 @@ body.dark-mode {
 
 ### **5. Debugging Tips**
 - Check the browser console for form-related errors.
-- Use **console.log** within **DynamicForm.tsx** for debugging JSON parsing or validation logic.
+- Use ``console.log`` within ``DynamicForm.tsx`` for debugging JSON parsing or validation logic.
 
