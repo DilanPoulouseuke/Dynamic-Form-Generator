@@ -45,8 +45,11 @@ Here are examples of JSON schemas you can use to define your forms:
 
 ### **Basic Form Example**
 ```Json
-[
-      {
+{
+  "formTitle": "Project Requirements Survey",
+  "formDescription": "Please fill out this survey about your project needs",
+  "fields": [
+    {
       "id": "name",
       "type": "text",
       "label": "Full Name",
@@ -108,7 +111,8 @@ Here are examples of JSON schemas you can use to define your forms:
       "required": false,
       "placeholder": "Any other details you'd like to share..."
     }
-]
+  ]
+}
 ```
 ## **Local Development Guide**
 ### **1. File Structure**
