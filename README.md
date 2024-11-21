@@ -115,8 +115,8 @@ Here are examples of JSON schemas you can use to define your forms:
 
 src/
 ├── components/
-|   └── DynamicForm.tsx
-|   └── Editor.tsx  
+|   ├── DynamicForm.tsx
+|   ├── Editor.tsx  
 │   └── FormPreview.tsx    
 ├── App.tsx               
 ├── index.tsx             
