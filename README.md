@@ -113,15 +113,16 @@ Here are examples of JSON schemas you can use to define your forms:
 ## **Local Development Guide**
 ### **1. File Structure**
 
+```plaintext
 src/
 ├── components/
 │   ├── DynamicForm.tsx       # Core dynamic form logic
 │   ├── Editor.tsx            # JSON editor for schema input
 │   └── FormPreview.tsx       # Component to preview form submissions
-├── App.tsx                   # Main application entry
-├── index.tsx                 # React DOM render entry
-└── styles.css                # Global and component-specific styles
-          
+├── App.tsx                   
+├── index.tsx                 
+└── styles.css                
+```         
 
 ### **2. Adding a New Field Type**
 1. Open ``DynamicForm.tsx``.
