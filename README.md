@@ -20,8 +20,8 @@ Follow these steps to set up and run the project locally:
 ### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/dynamic-form-generator.git
-cd dynamic-form-generator
+git clone https://github.com/DilanPoulouseuke/Dynamic-Form-Generator.git
+cd Dynamic-Form-Generator
 ```
 ### **2. Install Dependencies**
 ```
