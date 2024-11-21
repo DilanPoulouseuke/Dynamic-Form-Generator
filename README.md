@@ -158,7 +158,6 @@ if (field.type === "customType") {
 - Adjust colors in styles.css to modify dark mode themes.
 - Example:
 ```css
-Copy code
 body.dark-mode {
   background-color: #121212;
   color: #ffffff;
