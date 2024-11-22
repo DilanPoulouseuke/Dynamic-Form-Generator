@@ -9,10 +9,10 @@ const App: React.FC = () => {
   const toggleDarkMode = () => setDarkMode(!darkMode);
 
   return (
-    <div className={darkMode ? "bg-gray-900 text-white" : "bg-white text-black"} style={{ minHeight: "100vh" }}>
+    <div className={darkMode ? "bg-black text-white" : "bg-white text-black"} style={{ minHeight: "100vh" }}>
       <button
         onClick={toggleDarkMode}
-        className="absolute top-4 right-4 p-2 bg-gray-800 text-white rounded"
+        className="absolute top-4 right-4 p-2 bg-black text-white rounded"
       >
         Toggle Dark Mode
       </button>

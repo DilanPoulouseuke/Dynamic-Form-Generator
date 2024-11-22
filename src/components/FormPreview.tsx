@@ -12,7 +12,7 @@ const FormPreview: React.FC<FormPreviewProps> = ({ jsonSchema, darkMode }) => {
     schema = JSON.parse(jsonSchema);
   } catch {
     return (
-      <p className={`text-red-500 ${darkMode ? "bg-gray-800 text-white" : ""}`}>
+      <p className={`text-red-500 ${darkMode ? "bg-black text-white" : ""}`}>
         Invalid JSON. Please correct it.
       </p>
     );

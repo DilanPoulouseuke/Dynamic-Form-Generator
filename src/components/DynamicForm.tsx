@@ -85,7 +85,7 @@ const DynamicForm: React.FC<DynamicFormProps> = ({ schema, darkMode }) => {
     type="text"
     placeholder={field.placeholder}
     className={`border w-full p-2 ${
-      darkMode ? "bg-gray-800 text-white border-gray-600" : "bg-white text-black border-gray-300"
+      darkMode ? "bg-black text-white border-gray-600" : "bg-white text-black border-gray-300"
     }`}
   />
 )}
@@ -105,7 +105,7 @@ const DynamicForm: React.FC<DynamicFormProps> = ({ schema, darkMode }) => {
     type="email"
     placeholder={field.placeholder}
     className={`border w-full p-2 ${
-      darkMode ? "bg-gray-800 text-white border-gray-600" : "bg-white text-black border-gray-300"
+      darkMode ? "bg-black text-white border-gray-600" : "bg-white text-black border-gray-300"
     }`}
   />
 )}
@@ -116,7 +116,7 @@ const DynamicForm: React.FC<DynamicFormProps> = ({ schema, darkMode }) => {
               <select
               {...register(field.id, { required: field.required })}
               className={`border w-full p-2 ${
-                darkMode ? "bg-gray-800 text-white" : "bg-white text-black"
+                darkMode ? "bg-black text-white" : "bg-white text-black"
               }`}
             >
                 <option value="">Select an option</option>
@@ -151,7 +151,7 @@ const DynamicForm: React.FC<DynamicFormProps> = ({ schema, darkMode }) => {
     {...register(field.id, { required: field.required })}
     placeholder={field.placeholder}
     className={`border w-full p-2 ${
-      darkMode ? "bg-gray-800 text-white" : "bg-white text-black"
+      darkMode ? "bg-black text-white" : "bg-white text-black"
     }`}
   />
             )}

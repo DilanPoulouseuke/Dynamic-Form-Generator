@@ -17,7 +17,7 @@ const Editor: React.FC<EditorProps> = ({ jsonSchema, setJsonSchema, darkMode }) 
       <textarea
         value={jsonSchema}
         onChange={handleInputChange}
-        className={`w-full h-96 border p-2 ${darkMode ? "bg-gray-800 text-white" : "bg-white text-black"}`}
+        className={`w-full h-96 border p-2 ${darkMode ? "bg-black text-white" : "bg-white text-black"}`}
         placeholder="Enter JSON schema..."
       />
     </div>
