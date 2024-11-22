@@ -20,8 +20,8 @@ Follow these steps to set up and run the project locally:
 ### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/dynamic-form-generator.git
-cd dynamic-form-generator
+git clone https://github.com/DilanPoulouseuke/Dynamic-Form-Generator.git
+cd Dynamic-Form-Generator
 ```
 ### **2. Install Dependencies**
 ```
@@ -45,8 +45,11 @@ Here are examples of JSON schemas you can use to define your forms:
 
 ### **Basic Form Example**
 ```Json
-[
-      {
+{
+  "formTitle": "Project Requirements Survey",
+  "formDescription": "Please fill out this survey about your project needs",
+  "fields": [
+    {
       "id": "name",
       "type": "text",
       "label": "Full Name",
@@ -108,7 +111,8 @@ Here are examples of JSON schemas you can use to define your forms:
       "required": false,
       "placeholder": "Any other details you'd like to share..."
     }
-]
+  ]
+}
 ```
 ## **Local Development Guide**
 ### **1. File Structure**
@@ -154,7 +158,6 @@ if (field.type === "customType") {
 - Adjust colors in styles.css to modify dark mode themes.
 - Example:
 ```css
-Copy code
 body.dark-mode {
   background-color: #121212;
   color: #ffffff;
